@@ -106,9 +106,18 @@
     <property name="addToField" value="lightButtons"/>
    </properties>
   </object>
-  <object id="151" name="Handle" x="520" y="320" width="40" height="40">
+  <object id="151" name="Handle" x="480" y="320" width="40" height="40">
    <properties>
-    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedHandle"/>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.SlotHandleSprite"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.g2d.TextureAtlas"/>
+    <property name="Parameter2" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="ParameterValue1" value="Method.getSlotHandleAtlas"/>
+    <property name="ParameterValue2" value="Method.getTweenManager"/>
+    <property name="ParameterValue3" value="Property.X"/>
+    <property name="ParameterValue4" value="Property.Y"/>
+    <property name="addToField" value="animatedHandle"/>
    </properties>
   </object>
   <object id="152" name="Reel" x="400" y="240" width="40" height="40">
