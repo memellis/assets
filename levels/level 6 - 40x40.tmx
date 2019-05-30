@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="40" tileheight="40" nextobjectid="154">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="40" tileheight="40" nextobjectid="162">
  <tileset firstgid="1" name="light_pink_transparent 40x40" tilewidth="40" tileheight="40" tilecount="1" columns="1">
   <image source="light_pink_transparent 40x40.png" width="40" height="40"/>
  </tileset>
@@ -24,71 +24,7 @@
 </data>
  </layer>
  <objectgroup name="Reels">
-  <object id="48" name="Reel" x="360" y="240" width="40" height="40">
-   <properties>
-    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
-    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
-    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
-    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
-    <property name="Parameter2" value="float"/>
-    <property name="Parameter3" value="float"/>
-    <property name="Parameter4" value="float"/>
-    <property name="Parameter5" value="float"/>
-    <property name="Parameter6" value="float"/>
-    <property name="Parameter7" value="float"/>
-    <property name="Parameter8" value="int"/>
-    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
-    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
-    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
-    <property name="ParameterValue11" value="Method.getTweenManager"/>
-    <property name="ParameterValue2" value="Property.X"/>
-    <property name="ParameterValue3" value="Property.Y"/>
-    <property name="ParameterValue4" value="Property.Width"/>
-    <property name="ParameterValue5" value="Property.Height"/>
-    <property name="ParameterValue6" value="Property.Width"/>
-    <property name="ParameterValue7" value="Value.120"/>
-    <property name="ParameterValue8" value="Value.0"/>
-    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
-    <property name="addToField" value="reels"/>
-   </properties>
-  </object>
   <object id="148" name="Button" x="320" y="320" width="40" height="40">
-   <properties>
-    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.HoldLightButton"/>
-    <property name="Parameter1" value="com.badlogic.gdx.physics.box2d.World"/>
-    <property name="Parameter2" value="box2dLight.RayHandler"/>
-    <property name="Parameter3" value="float"/>
-    <property name="Parameter4" value="float"/>
-    <property name="Parameter5" value="int"/>
-    <property name="Parameter6" value="int"/>
-    <property name="ParameterValue1" value="Field.world"/>
-    <property name="ParameterValue2" value="Field.rayHandler"/>
-    <property name="ParameterValue3" value="Property.X"/>
-    <property name="ParameterValue4" value="Property.Y"/>
-    <property name="ParameterValue5" value="Property.Width"/>
-    <property name="ParameterValue6" value="Property.Height"/>
-    <property name="addToField" value="lightButtons"/>
-   </properties>
-  </object>
-  <object id="149" name="Button" x="360" y="320" width="40" height="40">
-   <properties>
-    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.HoldLightButton"/>
-    <property name="Parameter1" value="com.badlogic.gdx.physics.box2d.World"/>
-    <property name="Parameter2" value="box2dLight.RayHandler"/>
-    <property name="Parameter3" value="float"/>
-    <property name="Parameter4" value="float"/>
-    <property name="Parameter5" value="int"/>
-    <property name="Parameter6" value="int"/>
-    <property name="ParameterValue1" value="Field.world"/>
-    <property name="ParameterValue2" value="Field.rayHandler"/>
-    <property name="ParameterValue3" value="Property.X"/>
-    <property name="ParameterValue4" value="Property.Y"/>
-    <property name="ParameterValue5" value="Property.Width"/>
-    <property name="ParameterValue6" value="Property.Height"/>
-    <property name="addToField" value="lightButtons"/>
-   </properties>
-  </object>
-  <object id="150" name="Button" x="400" y="320" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.HoldLightButton"/>
     <property name="Parameter1" value="com.badlogic.gdx.physics.box2d.World"/>
@@ -120,7 +56,7 @@
     <property name="addToField" value="animatedHandle"/>
    </properties>
   </object>
-  <object id="152" name="Reel" x="400" y="240" width="40" height="40">
+  <object id="156" name="Reel" x="320" y="240" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
     <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
@@ -148,7 +84,7 @@
     <property name="addToField" value="reels"/>
    </properties>
   </object>
-  <object id="153" name="Reel" x="320" y="240" width="40" height="40">
+  <object id="158" name="Reel" x="360" y="240" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
     <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
@@ -174,6 +110,70 @@
     <property name="ParameterValue8" value="Value.0"/>
     <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
     <property name="addToField" value="reels"/>
+   </properties>
+  </object>
+  <object id="159" name="Button" x="360" y="320" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.HoldLightButton"/>
+    <property name="Parameter1" value="com.badlogic.gdx.physics.box2d.World"/>
+    <property name="Parameter2" value="box2dLight.RayHandler"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="int"/>
+    <property name="Parameter6" value="int"/>
+    <property name="ParameterValue1" value="Field.world"/>
+    <property name="ParameterValue2" value="Field.rayHandler"/>
+    <property name="ParameterValue3" value="Property.X"/>
+    <property name="ParameterValue4" value="Property.Y"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Height"/>
+    <property name="addToField" value="lightButtons"/>
+   </properties>
+  </object>
+  <object id="160" name="Reel" x="400" y="240" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Height"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Value.120"/>
+    <property name="ParameterValue8" value="Value.0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+    <property name="addToField" value="reels"/>
+   </properties>
+  </object>
+  <object id="161" name="Button" x="400" y="320" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.HoldLightButton"/>
+    <property name="Parameter1" value="com.badlogic.gdx.physics.box2d.World"/>
+    <property name="Parameter2" value="box2dLight.RayHandler"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="int"/>
+    <property name="Parameter6" value="int"/>
+    <property name="ParameterValue1" value="Field.world"/>
+    <property name="ParameterValue2" value="Field.rayHandler"/>
+    <property name="ParameterValue3" value="Property.X"/>
+    <property name="ParameterValue4" value="Property.Y"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Height"/>
+    <property name="addToField" value="lightButtons"/>
    </properties>
   </object>
  </objectgroup>
