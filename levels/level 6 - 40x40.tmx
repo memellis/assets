@@ -78,10 +78,10 @@
     <property name="ParameterValue4" value="Property.Width"/>
     <property name="ParameterValue5" value="Property.Height"/>
     <property name="ParameterValue6" value="Property.Width"/>
-    <property name="ParameterValue7" value="Value.120"/>
-    <property name="ParameterValue8" value="Value.0"/>
+    <property name="ParameterValue7" value="Value:120"/>
+    <property name="ParameterValue8" value="Value:0"/>
     <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
-    <property name="addToField" value="reels"/>
+    <property name="addToField" value="reelSprites"/>
    </properties>
   </object>
   <object id="158" name="Reel" x="360" y="240" width="40" height="40">
@@ -106,10 +106,10 @@
     <property name="ParameterValue4" value="Property.Width"/>
     <property name="ParameterValue5" value="Property.Height"/>
     <property name="ParameterValue6" value="Property.Width"/>
-    <property name="ParameterValue7" value="Value.120"/>
-    <property name="ParameterValue8" value="Value.0"/>
+    <property name="ParameterValue7" value="Value:120"/>
+    <property name="ParameterValue8" value="Value:0"/>
     <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
-    <property name="addToField" value="reels"/>
+    <property name="addToField" value="reelSprites"/>
    </properties>
   </object>
   <object id="159" name="Button" x="360" y="320" width="40" height="40">
@@ -152,10 +152,10 @@
     <property name="ParameterValue4" value="Property.Width"/>
     <property name="ParameterValue5" value="Property.Height"/>
     <property name="ParameterValue6" value="Property.Width"/>
-    <property name="ParameterValue7" value="Value.120"/>
-    <property name="ParameterValue8" value="Value.0"/>
+    <property name="ParameterValue7" value="Value:120"/>
+    <property name="ParameterValue8" value="Value:0"/>
     <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
-    <property name="addToField" value="reels"/>
+    <property name="addToField" value="reelSprites"/>
    </properties>
   </object>
   <object id="161" name="Button" x="400" y="320" width="40" height="40">
