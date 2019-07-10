@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="40" tileheight="40" nextobjectid="160">
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="386">
  <properties>
   <property name="Number Of Cards" value="4"/>
  </properties>
@@ -9,23 +9,23 @@
  <tileset firstgid="2" name="blue" tilewidth="40" tileheight="40" tilecount="1" columns="1">
   <image source="blue.png" width="49" height="49"/>
  </tileset>
- <objectgroup name="Hidden Pattern Object">
-  <object id="149" name="Card1" type="PlayingCard" x="200" y="120" width="80" height="120"/>
-  <object id="150" name="Card2" type="PlayingCard" x="280" y="120" width="80" height="120">
+ <objectgroup id="1" name="Hidden Pattern Object">
+  <object id="376" name="Card1" type="PlayingCard" x="200" y="120" width="80" height="120"/>
+  <object id="377" name="Card2" type="PlayingCard" x="280" y="120" width="80" height="120">
    <properties>
     <property name="Number Of Cards" value="2"/>
    </properties>
   </object>
-  <object id="151" name="Card3" type="PlayingCard" x="360" y="120" width="80" height="120"/>
-  <object id="152" name="Card4" type="PlayingCard" x="440" y="120" width="80" height="120"/>
-  <object id="153" name="Card5" type="PlayingCard" x="520" y="120" width="80" height="120"/>
-  <object id="154" name="Card6" type="PlayingCard" x="200" y="280" width="80" height="120"/>
-  <object id="156" name="Card7" type="PlayingCard" x="280" y="280" width="80" height="120"/>
-  <object id="157" name="Card8" type="PlayingCard" x="360" y="280" width="80" height="120"/>
-  <object id="158" name="Card9" type="PlayingCard" x="440" y="280" width="80" height="120"/>
-  <object id="159" name="Card10" type="PlayingCard" x="520" y="280" width="80" height="120"/>
+  <object id="378" name="Card3" type="PlayingCard" x="360" y="120" width="80" height="120"/>
+  <object id="379" name="Card4" type="PlayingCard" x="440" y="120" width="80" height="120"/>
+  <object id="380" name="Card5" type="PlayingCard" x="520" y="120" width="80" height="120"/>
+  <object id="381" name="Card6" type="PlayingCard" x="200" y="280" width="80" height="120"/>
+  <object id="382" name="Card7" type="PlayingCard" x="280" y="280" width="80" height="120"/>
+  <object id="383" name="Card8" type="PlayingCard" x="360" y="280" width="80" height="120"/>
+  <object id="384" name="Card9" type="PlayingCard" x="440" y="280" width="80" height="120"/>
+  <object id="385" name="Card10" type="PlayingCard" x="520" y="280" width="80" height="120"/>
  </objectgroup>
- <layer name="Hidden Pattern" width="20" height="12" visible="0">
+ <layer id="2" name="Hidden Pattern" width="20" height="12" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -41,117 +41,2925 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="Reels">
-  <object id="8" name="Reel" x="160" y="80" width="40" height="40"/>
-  <object id="9" name="Reel" x="200" y="80" width="40" height="40"/>
-  <object id="10" name="Reel" x="280" y="80" width="40" height="40"/>
-  <object id="11" name="Reel" x="240" y="80" width="40" height="40"/>
-  <object id="12" name="Reel" x="320" y="120" width="40" height="40"/>
-  <object id="13" name="Reel" x="360" y="120" width="40" height="40"/>
-  <object id="14" name="Reel" x="400" y="120" width="40" height="40"/>
-  <object id="15" name="Reel" x="440" y="120" width="40" height="40"/>
-  <object id="16" name="Reel" x="480" y="120" width="40" height="40"/>
-  <object id="17" name="Reel" x="520" y="120" width="40" height="40"/>
-  <object id="18" name="Reel" x="560" y="120" width="40" height="40"/>
-  <object id="19" name="Reel" x="160" y="120" width="40" height="40"/>
-  <object id="20" name="Reel" x="200" y="120" width="40" height="40"/>
-  <object id="21" name="Reel" x="240" y="120" width="40" height="40"/>
-  <object id="22" name="Reel" x="280" y="120" width="40" height="40"/>
-  <object id="23" name="Reel" x="200" y="160" width="40" height="40"/>
-  <object id="24" name="Reel" x="480" y="160" width="40" height="40"/>
-  <object id="25" name="Reel" x="240" y="160" width="40" height="40"/>
-  <object id="26" name="Reel" x="360" y="160" width="40" height="40"/>
-  <object id="27" name="Reel" x="520" y="160" width="40" height="40"/>
-  <object id="28" name="Reel" x="560" y="160" width="40" height="40"/>
-  <object id="29" name="Reel" x="320" y="160" width="40" height="40"/>
-  <object id="30" name="Reel" x="160" y="160" width="40" height="40"/>
-  <object id="31" name="Reel" x="400" y="160" width="40" height="40"/>
-  <object id="32" name="Reel" x="280" y="160" width="40" height="40"/>
-  <object id="33" name="Reel" x="440" y="160" width="40" height="40"/>
-  <object id="34" name="Reel" x="200" y="200" width="40" height="40"/>
-  <object id="35" name="Reel" x="480" y="200" width="40" height="40"/>
-  <object id="36" name="Reel" x="240" y="200" width="40" height="40"/>
-  <object id="37" name="Reel" x="360" y="200" width="40" height="40"/>
-  <object id="38" name="Reel" x="520" y="200" width="40" height="40"/>
-  <object id="39" name="Reel" x="560" y="200" width="40" height="40"/>
-  <object id="40" name="Reel" x="320" y="200" width="40" height="40"/>
-  <object id="41" name="Reel" x="160" y="200" width="40" height="40"/>
-  <object id="42" name="Reel" x="400" y="200" width="40" height="40"/>
-  <object id="43" name="Reel" x="280" y="200" width="40" height="40"/>
-  <object id="44" name="Reel" x="440" y="200" width="40" height="40"/>
-  <object id="45" name="Reel" x="200" y="240" width="40" height="40"/>
-  <object id="46" name="Reel" x="480" y="240" width="40" height="40"/>
-  <object id="47" name="Reel" x="240" y="240" width="40" height="40"/>
-  <object id="48" name="Reel" x="360" y="240" width="40" height="40"/>
-  <object id="49" name="Reel" x="520" y="240" width="40" height="40"/>
-  <object id="50" name="Reel" x="560" y="240" width="40" height="40"/>
-  <object id="51" name="Reel" x="320" y="240" width="40" height="40"/>
-  <object id="52" name="Reel" x="160" y="240" width="40" height="40"/>
-  <object id="53" name="Reel" x="400" y="240" width="40" height="40"/>
-  <object id="54" name="Reel" x="280" y="240" width="40" height="40"/>
-  <object id="55" name="Reel" x="440" y="240" width="40" height="40"/>
-  <object id="56" name="Reel" x="200" y="280" width="40" height="40"/>
-  <object id="57" name="Reel" x="480" y="280" width="40" height="40"/>
-  <object id="58" name="Reel" x="240" y="280" width="40" height="40"/>
-  <object id="59" name="Reel" x="360" y="280" width="40" height="40"/>
-  <object id="60" name="Reel" x="520" y="280" width="40" height="40"/>
-  <object id="61" name="Reel" x="560" y="280" width="40" height="40"/>
-  <object id="62" name="Reel" x="320" y="280" width="40" height="40"/>
-  <object id="63" name="Reel" x="160" y="280" width="40" height="40"/>
-  <object id="64" name="Reel" x="400" y="280" width="40" height="40"/>
-  <object id="65" name="Reel" x="280" y="280" width="40" height="40"/>
-  <object id="66" name="Reel" x="440" y="280" width="40" height="40"/>
-  <object id="68" name="Reel" x="480" y="320" width="40" height="40"/>
-  <object id="69" name="Reel" x="240" y="320" width="40" height="40"/>
-  <object id="70" name="Reel" x="360" y="320" width="40" height="40"/>
-  <object id="71" name="Reel" x="520" y="320" width="40" height="40"/>
-  <object id="72" name="Reel" x="560" y="320" width="40" height="40"/>
-  <object id="73" name="Reel" x="320" y="320" width="40" height="40"/>
-  <object id="74" name="Reel" x="160" y="320" width="40" height="40"/>
-  <object id="75" name="Reel" x="400" y="320" width="40" height="40"/>
-  <object id="76" name="Reel" x="280" y="320" width="40" height="40"/>
-  <object id="77" name="Reel" x="440" y="320" width="40" height="40"/>
-  <object id="78" name="Reel" x="200" y="360" width="40" height="40"/>
-  <object id="79" name="Reel" x="480" y="360" width="40" height="40"/>
-  <object id="80" name="Reel" x="240" y="360" width="40" height="40"/>
-  <object id="81" name="Reel" x="360" y="360" width="40" height="40"/>
-  <object id="82" name="Reel" x="520" y="360" width="40" height="40"/>
-  <object id="83" name="Reel" x="560" y="360" width="40" height="40"/>
-  <object id="84" name="Reel" x="320" y="360" width="40" height="40"/>
-  <object id="85" name="Reel" x="160" y="360" width="40" height="40"/>
-  <object id="86" name="Reel" x="400" y="360" width="40" height="40"/>
-  <object id="87" name="Reel" x="280" y="360" width="40" height="40"/>
-  <object id="88" name="Reel" x="440" y="360" width="40" height="40"/>
-  <object id="89" name="Reel" x="200" y="400" width="40" height="40"/>
-  <object id="91" name="Reel" x="240" y="400" width="40" height="40"/>
-  <object id="92" name="Reel" x="360" y="400" width="40" height="40"/>
-  <object id="93" name="Reel" x="520" y="400" width="40" height="40"/>
-  <object id="94" name="Reel" x="560" y="400" width="40" height="40"/>
-  <object id="95" name="Reel" x="320" y="400" width="40" height="40"/>
-  <object id="97" name="Reel" x="400" y="400" width="40" height="40"/>
-  <object id="98" name="Reel" x="280" y="400" width="40" height="40"/>
-  <object id="99" name="Reel" x="440" y="400" width="40" height="40"/>
-  <object id="100" name="Reel" x="320" y="80" width="40" height="40"/>
-  <object id="101" name="Reel" x="400" y="80" width="40" height="40"/>
-  <object id="102" name="Reel" x="360" y="80" width="40" height="40"/>
-  <object id="103" name="Reel" x="560" y="80" width="40" height="40"/>
-  <object id="104" name="Reel" x="480" y="80" width="40" height="40"/>
-  <object id="105" name="Reel" x="520" y="80" width="40" height="40"/>
-  <object id="106" name="Reel" x="440" y="80" width="40" height="40"/>
-  <object id="135" name="Reel" x="480" y="400" width="40" height="40"/>
-  <object id="136" name="Reel" x="160" y="400" width="40" height="40"/>
-  <object id="137" name="Reel" x="200" y="320" width="40" height="40"/>
-  <object id="138" name="Reel" x="600" y="80" width="40" height="40"/>
-  <object id="139" name="Reel" x="600" y="120" width="40" height="40"/>
-  <object id="140" name="Reel" x="600" y="160" width="40" height="40"/>
-  <object id="141" name="Reel" x="600" y="200" width="40" height="40"/>
-  <object id="142" name="Reel" x="600" y="240" width="40" height="40"/>
-  <object id="143" name="Reel" x="600" y="280" width="40" height="40"/>
-  <object id="144" name="Reel" x="600" y="320" width="40" height="40"/>
-  <object id="145" name="Reel" x="600" y="360" width="40" height="40"/>
-  <object id="146" name="Reel" x="600" y="400" width="40" height="40"/>
+ <objectgroup id="3" name="Reels">
+  <object id="268" name="Reel" x="160" y="80" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="269" name="Reel" x="200" y="80" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="270" name="Reel" x="240" y="80" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="271" name="Reel" x="280" y="80" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="272" name="Reel" x="320" y="80" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="273" name="Reel" x="360" y="80" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="274" name="Reel" x="400" y="80" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="275" name="Reel" x="440" y="80" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="276" name="Reel" x="480" y="80" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="277" name="Reel" x="520" y="80" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="278" name="Reel" x="560" y="80" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="279" name="Reel" x="600" y="80" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="280" name="Reel" x="160" y="120" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="281" name="Reel" x="200" y="120" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="282" name="Reel" x="240" y="120" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="283" name="Reel" x="280" y="120" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="284" name="Reel" x="320" y="120" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="285" name="Reel" x="400" y="120" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="286" name="Reel" x="360" y="120" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="287" name="Reel" x="480" y="120" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="288" name="Reel" x="520" y="120" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="289" name="Reel" x="560" y="120" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="290" name="Reel" x="600" y="120" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="291" name="Reel" x="160" y="160" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="292" name="Reel" x="160" y="200" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="293" name="Reel" x="200" y="200" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="294" name="Reel" x="200" y="160" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="295" name="Reel" x="240" y="160" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="296" name="Reel" x="240" y="200" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="297" name="Reel" x="280" y="200" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="298" name="Reel" x="280" y="160" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="299" name="Reel" x="320" y="160" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="300" name="Reel" x="440" y="120" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="301" name="Reel" x="360" y="200" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="302" name="Reel" x="360" y="160" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="303" name="Reel" x="400" y="160" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="304" name="Reel" x="400" y="200" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="305" name="Reel" x="440" y="200" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="306" name="Reel" x="440" y="160" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="307" name="Reel" x="480" y="160" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="308" name="Reel" x="480" y="200" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="309" name="Reel" x="520" y="200" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="310" name="Reel" x="520" y="160" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="311" name="Reel" x="560" y="160" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="312" name="Reel" x="560" y="200" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="313" name="Reel" x="600" y="200" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="314" name="Reel" x="600" y="160" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="315" name="Reel" x="320" y="200" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="316" name="Reel" x="600" y="360" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="317" name="Reel" x="600" y="320" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="318" name="Reel" x="600" y="280" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="319" name="Reel" x="600" y="240" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="320" name="Reel" x="560" y="240" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="321" name="Reel" x="520" y="240" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="322" name="Reel" x="520" y="280" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="323" name="Reel" x="560" y="280" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="324" name="Reel" x="560" y="320" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="325" name="Reel" x="560" y="360" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="326" name="Reel" x="520" y="360" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="327" name="Reel" x="520" y="320" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="328" name="Reel" x="480" y="360" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="329" name="Reel" x="480" y="320" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="330" name="Reel" x="480" y="280" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="331" name="Reel" x="480" y="240" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="332" name="Reel" x="440" y="240" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="333" name="Reel" x="440" y="280" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="334" name="Reel" x="440" y="320" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="335" name="Reel" x="440" y="360" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="336" name="Reel" x="400" y="360" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="337" name="Reel" x="400" y="320" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="338" name="Reel" x="400" y="280" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="339" name="Reel" x="400" y="240" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="340" name="Reel" x="360" y="240" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="341" name="Reel" x="360" y="280" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="342" name="Reel" x="360" y="320" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="343" name="Reel" x="360" y="360" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="344" name="Reel" x="320" y="360" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="345" name="Reel" x="320" y="320" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="346" name="Reel" x="320" y="280" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="347" name="Reel" x="320" y="240" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="348" name="Reel" x="280" y="240" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="349" name="Reel" x="280" y="280" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="350" name="Reel" x="280" y="320" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="351" name="Reel" x="280" y="360" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="352" name="Reel" x="240" y="360" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="353" name="Reel" x="240" y="320" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="354" name="Reel" x="240" y="280" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="355" name="Reel" x="240" y="240" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="356" name="Reel" x="200" y="240" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="357" name="Reel" x="200" y="280" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="358" name="Reel" x="200" y="320" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="359" name="Reel" x="200" y="360" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="360" name="Reel" x="160" y="360" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="361" name="Reel" x="160" y="320" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="362" name="Reel" x="160" y="280" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="363" name="Reel" x="160" y="240" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="364" name="Reel" x="160" y="400" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="365" name="Reel" x="200" y="400" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="366" name="Reel" x="240" y="400" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="367" name="Reel" x="280" y="400" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="368" name="Reel" x="360" y="400" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="369" name="Reel" x="320" y="400" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="370" name="Reel" x="400" y="400" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="371" name="Reel" x="440" y="400" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="372" name="Reel" x="480" y="400" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="373" name="Reel" x="520" y="400" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="374" name="Reel" x="560" y="400" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="375" name="Reel" x="600" y="400" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
+    <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="int"/>
+    <property name="Parameter9" value="com.badlogic.gdx.audio.Sound"/>
+    <property name="ParameterValue1" value="Method.getSlotReelScrollTexture"/>
+    <property name="ParameterValue10" value="Method.getReelStoppingSound"/>
+    <property name="ParameterValue11" value="Method.getTweenManager"/>
+    <property name="ParameterValue2" value="Property.X"/>
+    <property name="ParameterValue3" value="Property.Y"/>
+    <property name="ParameterValue4" value="Property.Width"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Width"/>
+    <property name="ParameterValue7" value="Property.Height"/>
+    <property name="ParameterValue8" value="Value:0"/>
+    <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
  </objectgroup>
- <layer name="Tiles" width="20" height="12">
+ <layer id="4" name="Tiles" width="20" height="12">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

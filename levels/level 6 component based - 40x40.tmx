@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="40" tileheight="40" nextobjectid="182">
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="197">
  <tileset firstgid="1" name="light_pink_transparent 40x40" tilewidth="40" tileheight="40" tilecount="1" columns="1">
   <image source="light_pink_transparent 40x40.png" width="40" height="40"/>
  </tileset>
  <tileset firstgid="2" name="blue" tilewidth="40" tileheight="40" tilecount="1" columns="1">
   <image source="blue.png" width="49" height="49"/>
  </tileset>
- <objectgroup name="Hidden Pattern Object"/>
- <layer name="Hidden Pattern" width="20" height="12">
+ <objectgroup id="1" name="Hidden Pattern Object"/>
+ <layer id="2" name="Hidden Pattern" width="20" height="12">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -23,8 +23,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="Reels">
-  <object id="148" name="Button" x="319" y="360" width="40" height="40">
+ <objectgroup id="3" name="Reels">
+  <object id="148" name="Button" x="320" y="360" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -38,15 +38,15 @@
     <property name="Parameter4" value="float"/>
     <property name="Parameter5" value="int"/>
     <property name="Parameter6" value="int"/>
-    <property name="ParameterValue1" value="Field.world"/>
-    <property name="ParameterValue2" value="Field.rayHandler"/>
+    <property name="ParameterValue1" value="Method.getWorld"/>
+    <property name="ParameterValue2" value="Method.getRayHandler"/>
     <property name="ParameterValue3" value="Property.X"/>
     <property name="ParameterValue4" value="Property.Y"/>
     <property name="ParameterValue5" value="Property.Width"/>
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="151" name="Handle" x="480" y="320" width="40" height="40">
+  <object id="151" name="Handle" x="545" y="321" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.SlotHandleSprite"/>
     <property name="Parameter1" value="com.badlogic.gdx.graphics.g2d.TextureAtlas"/>
@@ -130,8 +130,8 @@
     <property name="Parameter4" value="float"/>
     <property name="Parameter5" value="int"/>
     <property name="Parameter6" value="int"/>
-    <property name="ParameterValue1" value="Field.world"/>
-    <property name="ParameterValue2" value="Field.rayHandler"/>
+    <property name="ParameterValue1" value="Method.getWorld"/>
+    <property name="ParameterValue2" value="Method.getRayHandler"/>
     <property name="ParameterValue3" value="Property.X"/>
     <property name="ParameterValue4" value="Property.Y"/>
     <property name="ParameterValue5" value="Property.Width"/>
@@ -166,71 +166,7 @@
     <property name="addToField" value="reels"/>
    </properties>
   </object>
-  <object id="162" name="PointLight" x="380" y="220" width="40" height="40">
-   <properties>
-    <property name="Class" value="box2dLight.PointLight"/>
-    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
-    <property name="Component1Property1" value="float"/>
-    <property name="Component1Property2" value="float"/>
-    <property name="Component1Value1" value="Property.X"/>
-    <property name="Component1Value2" value="Property.Y"/>
-    <property name="Component2" value="com.ellzone.slotpuzzle2d.components.ColorComponent"/>
-    <property name="Component2Property1" value="float"/>
-    <property name="Component2Property2" value="float"/>
-    <property name="Component2Property3" value="float"/>
-    <property name="Component2Property4" value="float"/>
-    <property name="Component2Value1" value="Value:0"/>
-    <property name="Component2Value2" value="Value:1"/>
-    <property name="Component2Value3" value="Value:0"/>
-    <property name="Component2Value4" value="Value:1"/>
-    <property name="Parameter1" value="box2dLight.RayHandler"/>
-    <property name="Parameter2" value="int"/>
-    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
-    <property name="Parameter4" value="float"/>
-    <property name="Parameter5" value="float"/>
-    <property name="Parameter6" value="float"/>
-    <property name="ParameterValue1" value="Field.rayHandler"/>
-    <property name="ParameterValue2" value="Value:32"/>
-    <property name="ParameterValue3" value="Field.reelPointLightColor"/>
-    <property name="ParameterValue4" value="Value:0.4"/>
-    <property name="ParameterValue5" value="Property.X"/>
-    <property name="ParameterValue6" value="Property.Y"/>
-    <property name="delegateToCallback" value="PointLight"/>
-   </properties>
-  </object>
-  <object id="163" name="PointLight" x="340" y="220" width="40" height="40">
-   <properties>
-    <property name="Class" value="box2dLight.PointLight"/>
-    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
-    <property name="Component1Property1" value="float"/>
-    <property name="Component1Property2" value="float"/>
-    <property name="Component1Value1" value="Property.X"/>
-    <property name="Component1Value2" value="Property.Y"/>
-    <property name="Component2" value="com.ellzone.slotpuzzle2d.components.ColorComponent"/>
-    <property name="Component2Property1" value="float"/>
-    <property name="Component2Property2" value="float"/>
-    <property name="Component2Property3" value="float"/>
-    <property name="Component2Property4" value="float"/>
-    <property name="Component2Value1" value="Value:1"/>
-    <property name="Component2Value2" value="Value:0"/>
-    <property name="Component2Value3" value="Value:0"/>
-    <property name="Component2Value4" value="Value:1"/>
-    <property name="Parameter1" value="box2dLight.RayHandler"/>
-    <property name="Parameter2" value="int"/>
-    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
-    <property name="Parameter4" value="float"/>
-    <property name="Parameter5" value="float"/>
-    <property name="Parameter6" value="float"/>
-    <property name="ParameterValue1" value="Field.rayHandler"/>
-    <property name="ParameterValue2" value="Value:32"/>
-    <property name="ParameterValue3" value="Field.reelPointLightColor"/>
-    <property name="ParameterValue4" value="Value:0.4"/>
-    <property name="ParameterValue5" value="Property.X"/>
-    <property name="ParameterValue6" value="Property.Y"/>
-    <property name="delegateToCallback" value="PointLight"/>
-   </properties>
-  </object>
-  <object id="167" name="PointLight" x="464" y="362" width="40" height="40">
+  <object id="167" name="PointLight" x="522" y="360" width="40" height="40">
    <properties>
     <property name="Class" value="box2dLight.PointLight"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -253,297 +189,9 @@
     <property name="Parameter4" value="float"/>
     <property name="Parameter5" value="float"/>
     <property name="Parameter6" value="float"/>
-    <property name="ParameterValue1" value="Field.rayHandler"/>
+    <property name="ParameterValue1" value="Methodl.getRayHandler"/>
     <property name="ParameterValue2" value="Value:32"/>
-    <property name="ParameterValue3" value="Field.reelPointLightColor"/>
-    <property name="ParameterValue4" value="Value:0.4"/>
-    <property name="ParameterValue5" value="Property.X"/>
-    <property name="ParameterValue6" value="Property.Y"/>
-    <property name="delegateToCallback" value="PointLight"/>
-   </properties>
-  </object>
-  <object id="168" name="PointLight" x="552" y="134" width="40" height="40">
-   <properties>
-    <property name="Class" value="box2dLight.PointLight"/>
-    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
-    <property name="Component1Property1" value="float"/>
-    <property name="Component1Property2" value="float"/>
-    <property name="Component1Value1" value="Property.X"/>
-    <property name="Component1Value2" value="Property.Y"/>
-    <property name="Component2" value="com.ellzone.slotpuzzle2d.components.ColorComponent"/>
-    <property name="Component2Property1" value="float"/>
-    <property name="Component2Property2" value="float"/>
-    <property name="Component2Property3" value="float"/>
-    <property name="Component2Property4" value="float"/>
-    <property name="Component2Value1" value="Value:1"/>
-    <property name="Component2Value2" value="Value:1"/>
-    <property name="Component2Value3" value="Value:1"/>
-    <property name="Component2Value4" value="Value:1"/>
-    <property name="Parameter1" value="box2dLight.RayHandler"/>
-    <property name="Parameter2" value="int"/>
-    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
-    <property name="Parameter4" value="float"/>
-    <property name="Parameter5" value="float"/>
-    <property name="Parameter6" value="float"/>
-    <property name="ParameterValue1" value="Field.rayHandler"/>
-    <property name="ParameterValue2" value="Value:32"/>
-    <property name="ParameterValue3" value="Field.reelPointLightColor"/>
-    <property name="ParameterValue4" value="Value:0.4"/>
-    <property name="ParameterValue5" value="Property.X"/>
-    <property name="ParameterValue6" value="Property.Y"/>
-    <property name="delegateToCallback" value="PointLight"/>
-   </properties>
-  </object>
-  <object id="169" name="PointLight" x="422" y="220" width="40" height="40">
-   <properties>
-    <property name="Class" value="box2dLight.PointLight"/>
-    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
-    <property name="Component1Property1" value="float"/>
-    <property name="Component1Property2" value="float"/>
-    <property name="Component1Value1" value="Property.X"/>
-    <property name="Component1Value2" value="Property.Y"/>
-    <property name="Component2" value="com.ellzone.slotpuzzle2d.components.ColorComponent"/>
-    <property name="Component2Property1" value="float"/>
-    <property name="Component2Property2" value="float"/>
-    <property name="Component2Property3" value="float"/>
-    <property name="Component2Property4" value="float"/>
-    <property name="Component2Value1" value="Value:0.71"/>
-    <property name="Component2Value2" value="Value:0.807"/>
-    <property name="Component2Value3" value="Value:0.92"/>
-    <property name="Component2Value4" value="Value:1"/>
-    <property name="Parameter1" value="box2dLight.RayHandler"/>
-    <property name="Parameter2" value="int"/>
-    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
-    <property name="Parameter4" value="float"/>
-    <property name="Parameter5" value="float"/>
-    <property name="Parameter6" value="float"/>
-    <property name="ParameterValue1" value="Field.rayHandler"/>
-    <property name="ParameterValue2" value="Value:32"/>
-    <property name="ParameterValue3" value="Field.reelPointLightColor"/>
-    <property name="ParameterValue4" value="Value:0.4"/>
-    <property name="ParameterValue5" value="Property.X"/>
-    <property name="ParameterValue6" value="Property.Y"/>
-    <property name="delegateToCallback" value="PointLight"/>
-   </properties>
-  </object>
-  <object id="170" name="PointLight" x="333" y="152" width="40" height="40">
-   <properties>
-    <property name="Class" value="box2dLight.PointLight"/>
-    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
-    <property name="Component1Property1" value="float"/>
-    <property name="Component1Property2" value="float"/>
-    <property name="Component1Value1" value="Property.X"/>
-    <property name="Component1Value2" value="Property.Y"/>
-    <property name="Component2" value="com.ellzone.slotpuzzle2d.components.ColorComponent"/>
-    <property name="Component2Property1" value="float"/>
-    <property name="Component2Property2" value="float"/>
-    <property name="Component2Property3" value="float"/>
-    <property name="Component2Property4" value="float"/>
-    <property name="Component2Value1" value="Value:1"/>
-    <property name="Component2Value2" value="Value:0"/>
-    <property name="Component2Value3" value="Value:0"/>
-    <property name="Component2Value4" value="Value:1"/>
-    <property name="Parameter1" value="box2dLight.RayHandler"/>
-    <property name="Parameter2" value="int"/>
-    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
-    <property name="Parameter4" value="float"/>
-    <property name="Parameter5" value="float"/>
-    <property name="Parameter6" value="float"/>
-    <property name="ParameterValue1" value="Field.rayHandler"/>
-    <property name="ParameterValue2" value="Value:32"/>
-    <property name="ParameterValue3" value="Field.reelPointLightColor"/>
-    <property name="ParameterValue4" value="Value:0.4"/>
-    <property name="ParameterValue5" value="Property.X"/>
-    <property name="ParameterValue6" value="Property.Y"/>
-    <property name="delegateToCallback" value="PointLight"/>
-   </properties>
-  </object>
-  <object id="171" name="PointLight" x="366" y="150" width="40" height="40">
-   <properties>
-    <property name="Class" value="box2dLight.PointLight"/>
-    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
-    <property name="Component1Property1" value="float"/>
-    <property name="Component1Property2" value="float"/>
-    <property name="Component1Value1" value="Property.X"/>
-    <property name="Component1Value2" value="Property.Y"/>
-    <property name="Component2" value="com.ellzone.slotpuzzle2d.components.ColorComponent"/>
-    <property name="Component2Property1" value="float"/>
-    <property name="Component2Property2" value="float"/>
-    <property name="Component2Property3" value="float"/>
-    <property name="Component2Property4" value="float"/>
-    <property name="Component2Value1" value="Value:1"/>
-    <property name="Component2Value2" value="Value:0"/>
-    <property name="Component2Value3" value="Value:0"/>
-    <property name="Component2Value4" value="Value:1"/>
-    <property name="Parameter1" value="box2dLight.RayHandler"/>
-    <property name="Parameter2" value="int"/>
-    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
-    <property name="Parameter4" value="float"/>
-    <property name="Parameter5" value="float"/>
-    <property name="Parameter6" value="float"/>
-    <property name="ParameterValue1" value="Field.rayHandler"/>
-    <property name="ParameterValue2" value="Value:32"/>
-    <property name="ParameterValue3" value="Field.reelPointLightColor"/>
-    <property name="ParameterValue4" value="Value:0.4"/>
-    <property name="ParameterValue5" value="Property.X"/>
-    <property name="ParameterValue6" value="Property.Y"/>
-    <property name="delegateToCallback" value="PointLight"/>
-   </properties>
-  </object>
-  <object id="172" name="PointLight" x="395" y="150" width="40" height="40">
-   <properties>
-    <property name="Class" value="box2dLight.PointLight"/>
-    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
-    <property name="Component1Property1" value="float"/>
-    <property name="Component1Property2" value="float"/>
-    <property name="Component1Value1" value="Property.X"/>
-    <property name="Component1Value2" value="Property.Y"/>
-    <property name="Component2" value="com.ellzone.slotpuzzle2d.components.ColorComponent"/>
-    <property name="Component2Property1" value="float"/>
-    <property name="Component2Property2" value="float"/>
-    <property name="Component2Property3" value="float"/>
-    <property name="Component2Property4" value="float"/>
-    <property name="Component2Value1" value="Value:1"/>
-    <property name="Component2Value2" value="Value:0"/>
-    <property name="Component2Value3" value="Value:0"/>
-    <property name="Component2Value4" value="Value:1"/>
-    <property name="Parameter1" value="box2dLight.RayHandler"/>
-    <property name="Parameter2" value="int"/>
-    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
-    <property name="Parameter4" value="float"/>
-    <property name="Parameter5" value="float"/>
-    <property name="Parameter6" value="float"/>
-    <property name="ParameterValue1" value="Field.rayHandler"/>
-    <property name="ParameterValue2" value="Value:32"/>
-    <property name="ParameterValue3" value="Field.reelPointLightColor"/>
-    <property name="ParameterValue4" value="Value:0.4"/>
-    <property name="ParameterValue5" value="Property.X"/>
-    <property name="ParameterValue6" value="Property.Y"/>
-    <property name="delegateToCallback" value="PointLight"/>
-   </properties>
-  </object>
-  <object id="173" name="PointLight" x="335" y="251" width="40" height="40">
-   <properties>
-    <property name="Class" value="box2dLight.PointLight"/>
-    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
-    <property name="Component1Property1" value="float"/>
-    <property name="Component1Property2" value="float"/>
-    <property name="Component1Value1" value="Property.X"/>
-    <property name="Component1Value2" value="Property.Y"/>
-    <property name="Component2" value="com.ellzone.slotpuzzle2d.components.ColorComponent"/>
-    <property name="Component2Property1" value="float"/>
-    <property name="Component2Property2" value="float"/>
-    <property name="Component2Property3" value="float"/>
-    <property name="Component2Property4" value="float"/>
-    <property name="Component2Value1" value="Value:1"/>
-    <property name="Component2Value2" value="Value:0"/>
-    <property name="Component2Value3" value="Value:0"/>
-    <property name="Component2Value4" value="Value:1"/>
-    <property name="Parameter1" value="box2dLight.RayHandler"/>
-    <property name="Parameter2" value="int"/>
-    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
-    <property name="Parameter4" value="float"/>
-    <property name="Parameter5" value="float"/>
-    <property name="Parameter6" value="float"/>
-    <property name="ParameterValue1" value="Field.rayHandler"/>
-    <property name="ParameterValue2" value="Value:32"/>
-    <property name="ParameterValue3" value="Field.reelPointLightColor"/>
-    <property name="ParameterValue4" value="Value:0.4"/>
-    <property name="ParameterValue5" value="Property.X"/>
-    <property name="ParameterValue6" value="Property.Y"/>
-    <property name="delegateToCallback" value="PointLight"/>
-   </properties>
-  </object>
-  <object id="174" name="PointLight" x="363" y="252" width="40" height="40">
-   <properties>
-    <property name="Class" value="box2dLight.PointLight"/>
-    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
-    <property name="Component1Property1" value="float"/>
-    <property name="Component1Property2" value="float"/>
-    <property name="Component1Value1" value="Property.X"/>
-    <property name="Component1Value2" value="Property.Y"/>
-    <property name="Component2" value="com.ellzone.slotpuzzle2d.components.ColorComponent"/>
-    <property name="Component2Property1" value="float"/>
-    <property name="Component2Property2" value="float"/>
-    <property name="Component2Property3" value="float"/>
-    <property name="Component2Property4" value="float"/>
-    <property name="Component2Value1" value="Value:1"/>
-    <property name="Component2Value2" value="Value:0"/>
-    <property name="Component2Value3" value="Value:0"/>
-    <property name="Component2Value4" value="Value:1"/>
-    <property name="Parameter1" value="box2dLight.RayHandler"/>
-    <property name="Parameter2" value="int"/>
-    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
-    <property name="Parameter4" value="float"/>
-    <property name="Parameter5" value="float"/>
-    <property name="Parameter6" value="float"/>
-    <property name="ParameterValue1" value="Field.rayHandler"/>
-    <property name="ParameterValue2" value="Value:32"/>
-    <property name="ParameterValue3" value="Field.reelPointLightColor"/>
-    <property name="ParameterValue4" value="Value:0.4"/>
-    <property name="ParameterValue5" value="Property.X"/>
-    <property name="ParameterValue6" value="Property.Y"/>
-    <property name="delegateToCallback" value="PointLight"/>
-   </properties>
-  </object>
-  <object id="175" name="PointLight" x="417" y="251" width="40" height="40">
-   <properties>
-    <property name="Class" value="box2dLight.PointLight"/>
-    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
-    <property name="Component1Property1" value="float"/>
-    <property name="Component1Property2" value="float"/>
-    <property name="Component1Value1" value="Property.X"/>
-    <property name="Component1Value2" value="Property.Y"/>
-    <property name="Component2" value="com.ellzone.slotpuzzle2d.components.ColorComponent"/>
-    <property name="Component2Property1" value="float"/>
-    <property name="Component2Property2" value="float"/>
-    <property name="Component2Property3" value="float"/>
-    <property name="Component2Property4" value="float"/>
-    <property name="Component2Value1" value="Value:1"/>
-    <property name="Component2Value2" value="Value:0"/>
-    <property name="Component2Value3" value="Value:0"/>
-    <property name="Component2Value4" value="Value:1"/>
-    <property name="Parameter1" value="box2dLight.RayHandler"/>
-    <property name="Parameter2" value="int"/>
-    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
-    <property name="Parameter4" value="float"/>
-    <property name="Parameter5" value="float"/>
-    <property name="Parameter6" value="float"/>
-    <property name="ParameterValue1" value="Field.rayHandler"/>
-    <property name="ParameterValue2" value="Value:32"/>
-    <property name="ParameterValue3" value="Field.reelPointLightColor"/>
-    <property name="ParameterValue4" value="Value:0.4"/>
-    <property name="ParameterValue5" value="Property.X"/>
-    <property name="ParameterValue6" value="Property.Y"/>
-    <property name="delegateToCallback" value="PointLight"/>
-   </properties>
-  </object>
-  <object id="176" name="PointLight" x="511" y="133" width="40" height="40">
-   <properties>
-    <property name="Class" value="box2dLight.PointLight"/>
-    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
-    <property name="Component1Property1" value="float"/>
-    <property name="Component1Property2" value="float"/>
-    <property name="Component1Value1" value="Property.X"/>
-    <property name="Component1Value2" value="Property.Y"/>
-    <property name="Component2" value="com.ellzone.slotpuzzle2d.components.ColorComponent"/>
-    <property name="Component2Property1" value="float"/>
-    <property name="Component2Property2" value="float"/>
-    <property name="Component2Property3" value="float"/>
-    <property name="Component2Property4" value="float"/>
-    <property name="Component2Value1" value="Value:1"/>
-    <property name="Component2Value2" value="Value:1"/>
-    <property name="Component2Value3" value="Value:1"/>
-    <property name="Component2Value4" value="Value:1"/>
-    <property name="Parameter1" value="box2dLight.RayHandler"/>
-    <property name="Parameter2" value="int"/>
-    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
-    <property name="Parameter4" value="float"/>
-    <property name="Parameter5" value="float"/>
-    <property name="Parameter6" value="float"/>
-    <property name="ParameterValue1" value="Field.rayHandler"/>
-    <property name="ParameterValue2" value="Value:32"/>
-    <property name="ParameterValue3" value="Field.reelPointLightColor"/>
+    <property name="ParameterValue3" value="Method.getReelPointLightColor"/>
     <property name="ParameterValue4" value="Value:0.4"/>
     <property name="ParameterValue5" value="Property.X"/>
     <property name="ParameterValue6" value="Property.Y"/>
@@ -564,8 +212,8 @@
     <property name="Parameter4" value="float"/>
     <property name="Parameter5" value="int"/>
     <property name="Parameter6" value="int"/>
-    <property name="ParameterValue1" value="Field.world"/>
-    <property name="ParameterValue2" value="Field.rayHandler"/>
+    <property name="ParameterValue1" value="Method.getWorld"/>
+    <property name="ParameterValue2" value="Method.getRayHandler"/>
     <property name="ParameterValue3" value="Property.X"/>
     <property name="ParameterValue4" value="Property.Y"/>
     <property name="ParameterValue5" value="Property.Width"/>
@@ -573,7 +221,7 @@
     <property name="addToField" value="lightButtons"/>
    </properties>
   </object>
-  <object id="178" name="PointLight" x="512" y="361" width="40" height="40">
+  <object id="178" name="PointLight" x="561" y="359" width="40" height="40">
    <properties>
     <property name="Class" value="box2dLight.PointLight"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -596,48 +244,16 @@
     <property name="Parameter4" value="float"/>
     <property name="Parameter5" value="float"/>
     <property name="Parameter6" value="float"/>
-    <property name="ParameterValue1" value="Field.rayHandler"/>
+    <property name="ParameterValue1" value="Method.getRayHandler"/>
     <property name="ParameterValue2" value="Value:32"/>
-    <property name="ParameterValue3" value="Field.reelPointLightColor"/>
+    <property name="ParameterValue3" value="Method.getReelPointLightColor"/>
     <property name="ParameterValue4" value="Value:0.4"/>
     <property name="ParameterValue5" value="Property.X"/>
     <property name="ParameterValue6" value="Property.Y"/>
     <property name="delegateToCallback" value="PointLight"/>
    </properties>
   </object>
-  <object id="179" name="PointLight" x="507" y="221" width="40" height="40">
-   <properties>
-    <property name="Class" value="box2dLight.PointLight"/>
-    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
-    <property name="Component1Property1" value="float"/>
-    <property name="Component1Property2" value="float"/>
-    <property name="Component1Value1" value="Property.X"/>
-    <property name="Component1Value2" value="Property.Y"/>
-    <property name="Component2" value="com.ellzone.slotpuzzle2d.components.ColorComponent"/>
-    <property name="Component2Property1" value="float"/>
-    <property name="Component2Property2" value="float"/>
-    <property name="Component2Property3" value="float"/>
-    <property name="Component2Property4" value="float"/>
-    <property name="Component2Value1" value="Value:1"/>
-    <property name="Component2Value2" value="Value:1"/>
-    <property name="Component2Value3" value="Value:1"/>
-    <property name="Component2Value4" value="Value:1"/>
-    <property name="Parameter1" value="box2dLight.RayHandler"/>
-    <property name="Parameter2" value="int"/>
-    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
-    <property name="Parameter4" value="float"/>
-    <property name="Parameter5" value="float"/>
-    <property name="Parameter6" value="float"/>
-    <property name="ParameterValue1" value="Field.rayHandler"/>
-    <property name="ParameterValue2" value="Value:32"/>
-    <property name="ParameterValue3" value="Field.reelPointLightColor"/>
-    <property name="ParameterValue4" value="Value:0.4"/>
-    <property name="ParameterValue5" value="Property.X"/>
-    <property name="ParameterValue6" value="Property.Y"/>
-    <property name="delegateToCallback" value="PointLight"/>
-   </properties>
-  </object>
-  <object id="180" name="ReelHepler" x="240" y="239" width="40" height="40">
+  <object id="180" name="ReelHepler" x="481" y="211" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.ReelHelper"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -668,7 +284,7 @@
     <property name="ParameterValue1" value="Method.getReelSprites"/>
    </properties>
   </object>
-  <object id="181" name="PointLight" x="241" y="231" width="40" height="40">
+  <object id="192" name="PointLight" x="325" y="164" width="40" height="40">
    <properties>
     <property name="Class" value="box2dLight.PointLight"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -691,9 +307,137 @@
     <property name="Parameter4" value="float"/>
     <property name="Parameter5" value="float"/>
     <property name="Parameter6" value="float"/>
-    <property name="ParameterValue1" value="Field.rayHandler"/>
+    <property name="ParameterValue1" value="Methodl.getRayHandler"/>
     <property name="ParameterValue2" value="Value:32"/>
-    <property name="ParameterValue3" value="Field.reelPointLightColor"/>
+    <property name="ParameterValue3" value="Method.getReelPointLightColor"/>
+    <property name="ParameterValue4" value="Value:0.4"/>
+    <property name="ParameterValue5" value="Property.X"/>
+    <property name="ParameterValue6" value="Property.Y"/>
+    <property name="delegateToCallback" value="PointLight"/>
+   </properties>
+  </object>
+  <object id="193" name="PointLight" x="424" y="160" width="40" height="40">
+   <properties>
+    <property name="Class" value="box2dLight.PointLight"/>
+    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
+    <property name="Component1Property1" value="float"/>
+    <property name="Component1Property2" value="float"/>
+    <property name="Component1Value1" value="Property.X"/>
+    <property name="Component1Value2" value="Property.Y"/>
+    <property name="Component2" value="com.ellzone.slotpuzzle2d.components.ColorComponent"/>
+    <property name="Component2Property1" value="float"/>
+    <property name="Component2Property2" value="float"/>
+    <property name="Component2Property3" value="float"/>
+    <property name="Component2Property4" value="float"/>
+    <property name="Component2Value1" value="Value:1"/>
+    <property name="Component2Value2" value="Value:1"/>
+    <property name="Component2Value3" value="Value:1"/>
+    <property name="Component2Value4" value="Value:1"/>
+    <property name="Parameter1" value="box2dLight.RayHandler"/>
+    <property name="Parameter2" value="int"/>
+    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="ParameterValue1" value="Methodl.getRayHandler"/>
+    <property name="ParameterValue2" value="Value:32"/>
+    <property name="ParameterValue3" value="Method.getReelPointLightColor"/>
+    <property name="ParameterValue4" value="Value:0.4"/>
+    <property name="ParameterValue5" value="Property.X"/>
+    <property name="ParameterValue6" value="Property.Y"/>
+    <property name="delegateToCallback" value="PointLight"/>
+   </properties>
+  </object>
+  <object id="194" name="PointLight" x="322" y="237" width="40" height="40">
+   <properties>
+    <property name="Class" value="box2dLight.PointLight"/>
+    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
+    <property name="Component1Property1" value="float"/>
+    <property name="Component1Property2" value="float"/>
+    <property name="Component1Value1" value="Property.X"/>
+    <property name="Component1Value2" value="Property.Y"/>
+    <property name="Component2" value="com.ellzone.slotpuzzle2d.components.ColorComponent"/>
+    <property name="Component2Property1" value="float"/>
+    <property name="Component2Property2" value="float"/>
+    <property name="Component2Property3" value="float"/>
+    <property name="Component2Property4" value="float"/>
+    <property name="Component2Value1" value="Value:1"/>
+    <property name="Component2Value2" value="Value:1"/>
+    <property name="Component2Value3" value="Value:1"/>
+    <property name="Component2Value4" value="Value:1"/>
+    <property name="Parameter1" value="box2dLight.RayHandler"/>
+    <property name="Parameter2" value="int"/>
+    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="ParameterValue1" value="Methodl.getRayHandler"/>
+    <property name="ParameterValue2" value="Value:32"/>
+    <property name="ParameterValue3" value="Method.getReelPointLightColor"/>
+    <property name="ParameterValue4" value="Value:0.4"/>
+    <property name="ParameterValue5" value="Property.X"/>
+    <property name="ParameterValue6" value="Property.Y"/>
+    <property name="delegateToCallback" value="PointLight"/>
+   </properties>
+  </object>
+  <object id="195" name="PointLight" x="423" y="240" width="40" height="40">
+   <properties>
+    <property name="Class" value="box2dLight.PointLight"/>
+    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
+    <property name="Component1Property1" value="float"/>
+    <property name="Component1Property2" value="float"/>
+    <property name="Component1Value1" value="Property.X"/>
+    <property name="Component1Value2" value="Property.Y"/>
+    <property name="Component2" value="com.ellzone.slotpuzzle2d.components.ColorComponent"/>
+    <property name="Component2Property1" value="float"/>
+    <property name="Component2Property2" value="float"/>
+    <property name="Component2Property3" value="float"/>
+    <property name="Component2Property4" value="float"/>
+    <property name="Component2Value1" value="Value:1"/>
+    <property name="Component2Value2" value="Value:1"/>
+    <property name="Component2Value3" value="Value:1"/>
+    <property name="Component2Value4" value="Value:1"/>
+    <property name="Parameter1" value="box2dLight.RayHandler"/>
+    <property name="Parameter2" value="int"/>
+    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="ParameterValue1" value="Methodl.getRayHandler"/>
+    <property name="ParameterValue2" value="Value:32"/>
+    <property name="ParameterValue3" value="Method.getReelPointLightColor"/>
+    <property name="ParameterValue4" value="Value:0.4"/>
+    <property name="ParameterValue5" value="Property.X"/>
+    <property name="ParameterValue6" value="Property.Y"/>
+    <property name="delegateToCallback" value="PointLight"/>
+   </properties>
+  </object>
+  <object id="196" name="PointLight" x="561" y="122" width="40" height="40">
+   <properties>
+    <property name="Class" value="box2dLight.PointLight"/>
+    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
+    <property name="Component1Property1" value="float"/>
+    <property name="Component1Property2" value="float"/>
+    <property name="Component1Value1" value="Property.X"/>
+    <property name="Component1Value2" value="Property.Y"/>
+    <property name="Component2" value="com.ellzone.slotpuzzle2d.components.ColorComponent"/>
+    <property name="Component2Property1" value="float"/>
+    <property name="Component2Property2" value="float"/>
+    <property name="Component2Property3" value="float"/>
+    <property name="Component2Property4" value="float"/>
+    <property name="Component2Value1" value="Value:1"/>
+    <property name="Component2Value2" value="Value:1"/>
+    <property name="Component2Value3" value="Value:1"/>
+    <property name="Component2Value4" value="Value:1"/>
+    <property name="Parameter1" value="box2dLight.RayHandler"/>
+    <property name="Parameter2" value="int"/>
+    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="ParameterValue1" value="Methodl.getRayHandler"/>
+    <property name="ParameterValue2" value="Value:32"/>
+    <property name="ParameterValue3" value="Method.getReelPointLightColor"/>
     <property name="ParameterValue4" value="Value:0.4"/>
     <property name="ParameterValue5" value="Property.X"/>
     <property name="ParameterValue6" value="Property.Y"/>
@@ -701,7 +445,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Tiles" width="20" height="12">
+ <layer id="4" name="Tiles" width="20" height="12">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

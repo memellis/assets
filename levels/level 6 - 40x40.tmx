@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="40" tileheight="40" nextobjectid="162">
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="162">
  <tileset firstgid="1" name="light_pink_transparent 40x40" tilewidth="40" tileheight="40" tilecount="1" columns="1">
   <image source="light_pink_transparent 40x40.png" width="40" height="40"/>
  </tileset>
  <tileset firstgid="2" name="blue" tilewidth="40" tileheight="40" tilecount="1" columns="1">
   <image source="blue.png" width="49" height="49"/>
  </tileset>
- <objectgroup name="Hidden Pattern Object"/>
- <layer name="Hidden Pattern" width="20" height="12">
+ <objectgroup id="1" name="Hidden Pattern Object"/>
+ <layer id="2" name="Hidden Pattern" width="20" height="12">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -23,7 +23,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="Reels">
+ <objectgroup id="3" name="Reels">
   <object id="148" name="Button" x="320" y="320" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.HoldLightButton"/>
@@ -33,8 +33,8 @@
     <property name="Parameter4" value="float"/>
     <property name="Parameter5" value="int"/>
     <property name="Parameter6" value="int"/>
-    <property name="ParameterValue1" value="Field.world"/>
-    <property name="ParameterValue2" value="Field.rayHandler"/>
+    <property name="ParameterValue1" value="Method.getWorld"/>
+    <property name="ParameterValue2" value="Method.getRayHandler"/>
     <property name="ParameterValue3" value="Property.X"/>
     <property name="ParameterValue4" value="Property.Y"/>
     <property name="ParameterValue5" value="Property.Width"/>
@@ -121,8 +121,8 @@
     <property name="Parameter4" value="float"/>
     <property name="Parameter5" value="int"/>
     <property name="Parameter6" value="int"/>
-    <property name="ParameterValue1" value="Field.world"/>
-    <property name="ParameterValue2" value="Field.rayHandler"/>
+    <property name="ParameterValue1" value="Method.getWorld"/>
+    <property name="ParameterValue2" value="Method.getRayHandler"/>
     <property name="ParameterValue3" value="Property.X"/>
     <property name="ParameterValue4" value="Property.Y"/>
     <property name="ParameterValue5" value="Property.Width"/>
@@ -167,8 +167,8 @@
     <property name="Parameter4" value="float"/>
     <property name="Parameter5" value="int"/>
     <property name="Parameter6" value="int"/>
-    <property name="ParameterValue1" value="Field.world"/>
-    <property name="ParameterValue2" value="Field.rayHandler"/>
+    <property name="ParameterValue1" value="Method.getWorld"/>
+    <property name="ParameterValue2" value="Method.getRayHandler"/>
     <property name="ParameterValue3" value="Property.X"/>
     <property name="ParameterValue4" value="Property.Y"/>
     <property name="ParameterValue5" value="Property.Width"/>
@@ -177,7 +177,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Tiles" width="20" height="12">
+ <layer id="4" name="Tiles" width="20" height="12">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
