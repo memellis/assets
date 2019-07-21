@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="268">
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="269">
  <tileset firstgid="1" name="light_pink_transparent 40x40" tilewidth="40" tileheight="40" tilecount="1" columns="1">
   <image source="light_pink_transparent 40x40.png" width="40" height="40"/>
  </tileset>
@@ -36,7 +36,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="3" name="Reels" visible="0">
+ <objectgroup id="3" name="Reels">
   <object id="8" name="Reel" x="160" y="80" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
@@ -2951,6 +2951,27 @@
     <property name="ParameterValue7" value="Property.Height"/>
     <property name="ParameterValue8" value="Value:0"/>
     <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
+   </properties>
+  </object>
+  <object id="268" name="ConeLight" x="220" y="104" width="40" height="40">
+   <properties>
+    <property name="Class" value="box2dLight.ConeLight"/>
+    <property name="Parameter1" value="box2dLight.RayHandler"/>
+    <property name="Parameter2" value="int"/>
+    <property name="Parameter3" value="com.badlogic.gdx.graphics.Color"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="float"/>
+    <property name="Parameter6" value="float"/>
+    <property name="Parameter7" value="float"/>
+    <property name="Parameter8" value="float"/>
+    <property name="ParameterValue1" value="Methodl.getRayHandler"/>
+    <property name="ParameterValue2" value="Value:32"/>
+    <property name="ParameterValue3" value="Method.getConeLightColor"/>
+    <property name="ParameterValue4" value="Value:0.6"/>
+    <property name="ParameterValue5" value="Value:2.20"/>
+    <property name="ParameterValue6" value="Value:1.04"/>
+    <property name="ParameterValue7" value="Value:270"/>
+    <property name="ParameterValue8" value="Value:90"/>
    </properties>
   </object>
  </objectgroup>

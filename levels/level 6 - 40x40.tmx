@@ -150,9 +150,9 @@
     <property name="ParameterValue2" value="Property.X"/>
     <property name="ParameterValue3" value="Property.Y"/>
     <property name="ParameterValue4" value="Property.Width"/>
-    <property name="ParameterValue5" value="Property.Height"/>
+    <property name="ParameterValue5" value="Property.Width"/>
     <property name="ParameterValue6" value="Property.Width"/>
-    <property name="ParameterValue7" value="Value:120"/>
+    <property name="ParameterValue7" value="Property.Height"/>
     <property name="ParameterValue8" value="Value:0"/>
     <property name="ParameterValue9" value="Method.getReelSpinningSound"/>
     <property name="addToField" value="reelSprites"/>
