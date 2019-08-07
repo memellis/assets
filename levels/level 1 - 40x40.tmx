@@ -20,7 +20,7 @@
   <object id="266" name="Reel" x="280" y="120" width="40" height="40"/>
   <object id="267" name="Reel" x="320" y="160" width="40" height="40"/>
  </objectgroup>
- <layer id="2" name="Hidden Pattern" width="20" height="12">
+ <layer id="2" name="Hidden Pattern" width="20" height="12" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -36,7 +36,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="3" name="Reels">
+ <objectgroup id="3" name="Reels" visible="0">
   <object id="8" name="Reel" x="160" y="80" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
