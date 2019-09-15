@@ -20,7 +20,7 @@
   <object id="266" name="Reel" x="280" y="120" width="40" height="40"/>
   <object id="267" name="Reel" x="320" y="160" width="40" height="40"/>
  </objectgroup>
- <layer id="2" name="Hidden Pattern" width="20" height="12" visible="0">
+ <layer id="2" name="Hidden Pattern" width="20" height="12">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
