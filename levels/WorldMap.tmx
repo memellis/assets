@@ -1246,13 +1246,13 @@
  <objectgroup id="5" name="Slot Machine Components">
   <object id="14" name="SpinWheel" x="1660" y="1230">
    <properties>
-    <property name="Class" value="com.ellzone.slotpuzzle2d.spin.SpinWheelForSlotPuzzle"/>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.spin.SpinWheelSlotPuzzleTileMap"/>
     <property name="Parameter1" value="float"/>
     <property name="Parameter2" value="float"/>
     <property name="Parameter3" value="float"/>
     <property name="Parameter4" value="int"/>
     <property name="Parameter5" value="com.badlogic.gdx.physics.box2d.World"/>
-    <property name="ParameterValue1" value="Value:750"/>
+    <property name="ParameterValue1" value="Value:1500"/>
     <property name="ParameterValue2" value="Property.X"/>
     <property name="ParameterValue3" value="Property.Y"/>
     <property name="ParameterValue4" value="Value:12"/>
