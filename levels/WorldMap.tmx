@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="100" height="400" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="29">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="100" height="400" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="29">
  <tileset firstgid="1" name="neon_tiles 40x40" tilewidth="40" tileheight="40" tilecount="8" columns="4">
   <image source="neon_tiles 40x40.png" width="199" height="101"/>
  </tileset>
@@ -1241,7 +1241,7 @@
   <object id="9" name="1-6" type="MiniSlotMachine" x="1600" y="15240" width="200" height="160"/>
   <object id="10" name="1-5" type="HiddenPattern" x="1600" y="15720" width="200" height="160"/>
   <object id="11" name="1-7" type="FallingReels" x="1960" y="15480" width="200" height="160"/>
-  <object id="25" name="1-8" type="NewGameMechanic" x="2340" y="15320" width="200" height="160"/>
+  <object id="25" name="1-8" type="BombsLevel" x="2340" y="15320" width="200" height="160"/>
  </objectgroup>
  <objectgroup id="5" name="Slot Machine Components">
   <object id="14" name="SpinWheel" x="1660" y="1230">
