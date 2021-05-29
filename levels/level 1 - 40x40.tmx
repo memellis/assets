@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="269">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="269">
+ <properties>
+  <property name="GridHeight" value="9"/>
+  <property name="GridWidth" value="12"/>
+ </properties>
  <tileset firstgid="1" name="light_pink_transparent 40x40" tilewidth="40" tileheight="40" tilecount="1" columns="1">
   <image source="light_pink_transparent 40x40.png" width="40" height="40"/>
  </tileset>
@@ -2964,7 +2968,7 @@
     <property name="Parameter6" value="float"/>
     <property name="Parameter7" value="float"/>
     <property name="Parameter8" value="float"/>
-    <property name="ParameterValue1" value="Methodl.getRayHandler"/>
+    <property name="ParameterValue1" value="Method.getRayHandler"/>
     <property name="ParameterValue2" value="Value:32"/>
     <property name="ParameterValue3" value="Method.getConeLightColor"/>
     <property name="ParameterValue4" value="Value:0.6"/>
