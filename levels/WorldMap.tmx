@@ -1262,7 +1262,7 @@
   </object>
   <object id="28" name="Handle" x="2101.21" y="2413.33" width="40" height="40">
    <properties>
-    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.SlotHandleSprite"/>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.slothandle.SlotHandleSprite"/>
     <property name="Parameter1" value="com.badlogic.gdx.graphics.g2d.TextureAtlas"/>
     <property name="Parameter2" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
     <property name="Parameter3" value="float"/>

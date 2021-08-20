@@ -48,7 +48,7 @@
   </object>
   <object id="151" name="Handle" x="520" y="320" width="40" height="40">
    <properties>
-    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.SlotHandleSprite"/>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.slothandle.SlotHandleSprite"/>
     <property name="Parameter1" value="com.badlogic.gdx.graphics.g2d.TextureAtlas"/>
     <property name="Parameter2" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
     <property name="Parameter3" value="float"/>
@@ -62,7 +62,7 @@
   </object>
   <object id="156" name="Reel" x="320" y="160" width="40" height="120">
    <properties>
-    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.reel.AnimatedReel"/>
     <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
     <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
     <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
@@ -90,7 +90,7 @@
   </object>
   <object id="158" name="Reel" x="360" y="160" width="40" height="120">
    <properties>
-    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.reel.AnimatedReel"/>
     <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
     <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
     <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>
@@ -136,7 +136,7 @@
   </object>
   <object id="160" name="Reel" x="400" y="160" width="40" height="120">
    <properties>
-    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.AnimatedReel"/>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.reel.AnimatedReel"/>
     <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
     <property name="Parameter10" value="com.badlogic.gdx.audio.Sound"/>
     <property name="Parameter11" value="com.ellzone.slotpuzzle2d.tweenengine.TweenManager"/>

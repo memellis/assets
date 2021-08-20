@@ -1,0 +1,90 @@
+
+coin40x40.pack.png
+size: 512, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+coin
+  rotate: false
+  xy: 2, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 44, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 86, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 128, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 170, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 212, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 254, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 296, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 338, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+0010
+  rotate: false
+  xy: 380, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 422, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 2, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
