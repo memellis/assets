@@ -810,7 +810,7 @@
     <property name="ParameterValue9" value="Method.getTweenManager"/>
    </properties>
   </object>
-  <object id="318" name="Reel" x="236.867" y="200" width="43.1328" height="40">
+  <object id="318" name="Reel" x="240" y="200" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.reel.AnimatedReel"/>
     <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
@@ -1086,7 +1086,7 @@
     <property name="ParameterValue9" value="Method.getTweenManager"/>
    </properties>
   </object>
-  <object id="375" name="Reel" x="400" y="240" width="38.1203" height="40">
+  <object id="375" name="Reel" x="400" y="240" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.reel.AnimatedReel"/>
     <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
