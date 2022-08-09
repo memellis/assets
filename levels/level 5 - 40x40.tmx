@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="374">
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="402">
  <properties>
   <property name="GridHeight" value="9"/>
   <property name="GridWidth" value="12"/>
@@ -10,7 +10,35 @@
  <tileset firstgid="2" name="blue" tilewidth="40" tileheight="40" tilecount="1" columns="1">
   <image source="blue.png" width="49" height="49"/>
  </tileset>
- <objectgroup id="1" name="Hidden Pattern Object"/>
+ <objectgroup id="1" name="Hidden Pattern Object">
+  <object id="374" x="240" y="120" width="40" height="40"/>
+  <object id="376" x="280" y="120" width="40" height="40"/>
+  <object id="377" x="320" y="160" width="40" height="40"/>
+  <object id="378" x="200" y="160" width="40" height="40"/>
+  <object id="379" x="200" y="200" width="40" height="40"/>
+  <object id="380" x="240" y="240" width="40" height="40"/>
+  <object id="381" x="280" y="240" width="40" height="40"/>
+  <object id="382" x="320" y="280" width="40" height="40"/>
+  <object id="383" x="320" y="320" width="40" height="40"/>
+  <object id="384" x="280" y="360" width="40" height="40"/>
+  <object id="385" x="240" y="360" width="40" height="40"/>
+  <object id="386" x="200" y="320" width="40" height="40"/>
+  <object id="387" x="440" y="120" width="40" height="40"/>
+  <object id="388" x="480" y="120" width="40" height="40"/>
+  <object id="389" x="520" y="120" width="40" height="40"/>
+  <object id="390" x="560" y="160" width="40" height="40"/>
+  <object id="391" x="440" y="160" width="40" height="40"/>
+  <object id="392" x="440" y="200" width="40" height="40"/>
+  <object id="393" x="560" y="200" width="40" height="40"/>
+  <object id="394" x="440" y="240" width="40" height="40"/>
+  <object id="395" x="480" y="240" width="40" height="40"/>
+  <object id="396" x="520" y="240" width="40" height="40"/>
+  <object id="397" x="480" y="240" width="40" height="40"/>
+  <object id="398" x="440" y="240" width="40" height="40"/>
+  <object id="399" x="440" y="280" width="40" height="40"/>
+  <object id="400" x="440" y="320" width="40" height="40"/>
+  <object id="401" x="440" y="360" width="40" height="40"/>
+ </objectgroup>
  <layer id="2" name="Hidden Pattern" width="20" height="12">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
