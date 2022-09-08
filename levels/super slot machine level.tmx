@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="109">
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="110">
  <properties>
   <property name="GridHeight" type="int" value="18"/>
   <property name="GridWidth" type="int" value="12"/>
@@ -98,7 +98,7 @@
     <property name="ParameterValue4" value="Property.Height"/>
    </properties>
   </object>
-  <object id="7" name="SpinningWheel" x="676.974" y="438.815" width="46.7105" height="42.1053">
+  <object id="7" name="SpinningWheel" x="680" y="278" width="46.7105" height="42.1053">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.spin.SpinWheelSlotPuzzleTileMap"/>
     <property name="Parameter1" value="float"/>
@@ -599,6 +599,28 @@
     <property name="ParameterValue7" value="Property.Height"/>
     <property name="ParameterValue8" value="Value:0"/>
     <property name="ParameterValue9" value="Method.getTweenManager"/>
+   </properties>
+  </object>
+  <object id="109" name="Button" x="120" y="840" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.HoldLightButton"/>
+    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
+    <property name="Component1Property1" value="float"/>
+    <property name="Component1Property2" value="float"/>
+    <property name="Component1Value1" value="Property.X"/>
+    <property name="Component1Value2" value="Property.Y"/>
+    <property name="Parameter1" value="com.badlogic.gdx.physics.box2d.World"/>
+    <property name="Parameter2" value="box2dLight.RayHandler"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="int"/>
+    <property name="Parameter6" value="int"/>
+    <property name="ParameterValue1" value="Method.getWorld"/>
+    <property name="ParameterValue2" value="Method.getRayHandler"/>
+    <property name="ParameterValue3" value="Property.X"/>
+    <property name="ParameterValue4" value="Property.Y"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
  </objectgroup>
