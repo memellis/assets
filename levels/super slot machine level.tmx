@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="222">
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="233">
  <properties>
   <property name="GridHeight" type="int" value="18"/>
   <property name="GridWidth" type="int" value="12"/>
@@ -33,7 +33,7 @@
 </data>
  </layer>
  <objectgroup id="2" name="Super Slot Machine Components">
-  <object id="2" name="ReelGridScreen1" x="79" y="280" width="200" height="200">
+  <object id="2" name="ReelGridScreen1" x="80" y="280" width="200" height="200">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.level.reel.ReelGrid"/>
     <property name="Parameter1" value="float"/>
@@ -46,9 +46,35 @@
     <property name="ParameterValue4" value="Property.Height"/>
    </properties>
   </object>
-  <object id="106" name="ReelGridScreen3" x="79" y="600" width="200" height="200">
+  <object id="223" name="LightGrid1" x="80" y="280" width="200" height="280">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.level.light.LightGrid"/>
+    <property name="Parameter1" value="float"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="ParameterValue1" value="Property.X"/>
+    <property name="ParameterValue2" value="Property.Y"/>
+    <property name="ParameterValue3" value="Property.Width"/>
+    <property name="ParameterValue4" value="Property.Height"/>
+   </properties>
+  </object>
+  <object id="106" name="ReelGridScreen3" x="80" y="600" width="200" height="201">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.level.reel.ReelGrid"/>
+    <property name="Parameter1" value="float"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="ParameterValue1" value="Property.X"/>
+    <property name="ParameterValue2" value="Property.Y"/>
+    <property name="ParameterValue3" value="Property.Width"/>
+    <property name="ParameterValue4" value="Property.Height"/>
+   </properties>
+  </object>
+  <object id="225" name="LightGrid3" x="80" y="600" width="200" height="280">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.level.light.LightGrid"/>
     <property name="Parameter1" value="float"/>
     <property name="Parameter2" value="float"/>
     <property name="Parameter3" value="float"/>
@@ -72,9 +98,48 @@
     <property name="ParameterValue4" value="Property.Height"/>
    </properties>
   </object>
-  <object id="105" name="ReelGridScreen2" x="359" y="280" width="200" height="200">
+  <object id="227" name="LightGrid4" x="360" y="600" width="200" height="280">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.level.light.LightGrid"/>
+    <property name="Parameter1" value="float"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="ParameterValue1" value="Property.X"/>
+    <property name="ParameterValue2" value="Property.Y"/>
+    <property name="ParameterValue3" value="Property.Width"/>
+    <property name="ParameterValue4" value="Property.Height"/>
+   </properties>
+  </object>
+  <object id="232" name="LightGrid5" x="600" y="680" width="200" height="160">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.level.light.LightGrid"/>
+    <property name="Parameter1" value="float"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="ParameterValue1" value="Property.X"/>
+    <property name="ParameterValue2" value="Property.Y"/>
+    <property name="ParameterValue3" value="Property.Width"/>
+    <property name="ParameterValue4" value="Property.Height"/>
+   </properties>
+  </object>
+  <object id="105" name="ReelGridScreen2" x="360" y="280" width="200" height="200">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.level.reel.ReelGrid"/>
+    <property name="Parameter1" value="float"/>
+    <property name="Parameter2" value="float"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="ParameterValue1" value="Property.X"/>
+    <property name="ParameterValue2" value="Property.Y"/>
+    <property name="ParameterValue3" value="Property.Width"/>
+    <property name="ParameterValue4" value="Property.Height"/>
+   </properties>
+  </object>
+  <object id="226" name="LightGrid2" x="360" y="280" width="200" height="280">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.level.light.LightGrid"/>
     <property name="Parameter1" value="float"/>
     <property name="Parameter2" value="float"/>
     <property name="Parameter3" value="float"/>
@@ -172,7 +237,7 @@
     <property name="ParameterValue9" value="Method.getTweenManager"/>
    </properties>
   </object>
-  <object id="12" name="Reel" x="79" y="280" width="40" height="200">
+  <object id="12" name="Reel" x="80" y="280" width="40" height="200">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.reel.AnimatedReel"/>
     <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
@@ -218,7 +283,7 @@
     <property name="ParameterValue9" value="Method.getTweenManager"/>
    </properties>
   </object>
-  <object id="54" name="Reel" x="359" y="600" width="40" height="200">
+  <object id="54" name="Reel" x="360" y="600" width="40" height="200">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.reel.AnimatedReel"/>
     <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
@@ -333,7 +398,7 @@
     <property name="ParameterValue9" value="Method.getTweenManager"/>
    </properties>
   </object>
-  <object id="94" name="Reel" x="359" y="280" width="40" height="200">
+  <object id="94" name="Reel" x="360" y="280" width="40" height="200">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.reel.AnimatedReel"/>
     <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
@@ -448,7 +513,7 @@
     <property name="ParameterValue9" value="Method.getTweenManager"/>
    </properties>
   </object>
-  <object id="99" name="Reel" x="79" y="600" width="40" height="200">
+  <object id="99" name="Reel" x="80" y="600" width="40" height="200">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.reel.AnimatedReel"/>
     <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
@@ -563,7 +628,7 @@
     <property name="ParameterValue9" value="Method.getTweenManager"/>
    </properties>
   </object>
-  <object id="104" name="Reel" x="0" y="440" width="40" height="40">
+  <object id="104" name="Reel" x="1" y="560" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.reel.AnimatedPredictedReel"/>
     <property name="Parameter1" value="com.badlogic.gdx.graphics.Texture"/>
@@ -589,28 +654,6 @@
    </properties>
   </object>
   <object id="109" name="Button" x="79" y="840" width="40" height="40">
-   <properties>
-    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
-    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
-    <property name="Component1Property1" value="float"/>
-    <property name="Component1Property2" value="float"/>
-    <property name="Component1Value1" value="Property.X"/>
-    <property name="Component1Value2" value="Property.Y"/>
-    <property name="Parameter1" value="com.badlogic.gdx.physics.box2d.World"/>
-    <property name="Parameter2" value="box2dLight.RayHandler"/>
-    <property name="Parameter3" value="float"/>
-    <property name="Parameter4" value="float"/>
-    <property name="Parameter5" value="int"/>
-    <property name="Parameter6" value="int"/>
-    <property name="ParameterValue1" value="Method.getWorld"/>
-    <property name="ParameterValue2" value="Method.getRayHandler"/>
-    <property name="ParameterValue3" value="Property.X"/>
-    <property name="ParameterValue4" value="Property.Y"/>
-    <property name="ParameterValue5" value="Property.Width"/>
-    <property name="ParameterValue6" value="Property.Height"/>
-   </properties>
-  </object>
-  <object id="208" name="Button" x="80" y="520" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -676,7 +719,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="195" name="Button" x="577" y="719" width="40" height="40">
+  <object id="195" name="Button" x="600" y="721" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -698,7 +741,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="198" name="Button" x="577" y="679" width="40" height="40">
+  <object id="198" name="Button" x="600" y="681" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -720,7 +763,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="184" name="Button" x="737" y="798" width="40" height="40">
+  <object id="184" name="Button" x="760" y="800" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -742,7 +785,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="192" name="Button" x="737" y="719" width="40" height="40">
+  <object id="192" name="Button" x="760" y="721" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -764,7 +807,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="185" name="Button" x="737" y="758" width="40" height="40">
+  <object id="185" name="Button" x="760" y="760" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -786,7 +829,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="199" name="Button" x="737" y="679" width="40" height="40">
+  <object id="199" name="Button" x="760" y="681" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -808,7 +851,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="197" name="Button" x="617" y="717" width="40" height="40">
+  <object id="197" name="Button" x="640" y="719" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -830,7 +873,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="200" name="Button" x="617" y="679" width="40" height="40">
+  <object id="200" name="Button" x="640" y="681" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -852,7 +895,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="183" name="Button" x="657" y="798" width="40" height="40">
+  <object id="183" name="Button" x="680" y="800" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -874,7 +917,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="193" name="Button" x="657" y="719" width="40" height="40">
+  <object id="230" name="Button" x="640" y="800" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -896,7 +939,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="186" name="Button" x="657" y="758" width="40" height="40">
+  <object id="231" name="Button" x="600" y="800" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -918,7 +961,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="201" name="Button" x="657" y="679" width="40" height="40">
+  <object id="193" name="Button" x="680" y="721" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -940,7 +983,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="196" name="Button" x="617" y="717" width="40" height="40">
+  <object id="186" name="Button" x="680" y="760" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -962,7 +1005,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="191" name="Button" x="617" y="719" width="40" height="40">
+  <object id="228" name="Button" x="640" y="760" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -984,7 +1027,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="182" name="Button" x="697" y="798" width="40" height="40">
+  <object id="229" name="Button" x="600" y="760" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -1006,7 +1049,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="194" name="Button" x="697" y="719" width="40" height="40">
+  <object id="201" name="Button" x="680" y="681" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -1028,7 +1071,7 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="187" name="Button" x="697" y="758" width="40" height="40">
+  <object id="196" name="Button" x="640" y="719" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -1050,7 +1093,95 @@
     <property name="ParameterValue6" value="Property.Height"/>
    </properties>
   </object>
-  <object id="202" name="Button" x="697" y="679" width="40" height="40">
+  <object id="191" name="Button" x="640" y="721" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
+    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
+    <property name="Component1Property1" value="float"/>
+    <property name="Component1Property2" value="float"/>
+    <property name="Component1Value1" value="Property.X"/>
+    <property name="Component1Value2" value="Property.Y"/>
+    <property name="Parameter1" value="com.badlogic.gdx.physics.box2d.World"/>
+    <property name="Parameter2" value="box2dLight.RayHandler"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="int"/>
+    <property name="Parameter6" value="int"/>
+    <property name="ParameterValue1" value="Method.getWorld"/>
+    <property name="ParameterValue2" value="Method.getRayHandler"/>
+    <property name="ParameterValue3" value="Property.X"/>
+    <property name="ParameterValue4" value="Property.Y"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Height"/>
+   </properties>
+  </object>
+  <object id="182" name="Button" x="720" y="800" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
+    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
+    <property name="Component1Property1" value="float"/>
+    <property name="Component1Property2" value="float"/>
+    <property name="Component1Value1" value="Property.X"/>
+    <property name="Component1Value2" value="Property.Y"/>
+    <property name="Parameter1" value="com.badlogic.gdx.physics.box2d.World"/>
+    <property name="Parameter2" value="box2dLight.RayHandler"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="int"/>
+    <property name="Parameter6" value="int"/>
+    <property name="ParameterValue1" value="Method.getWorld"/>
+    <property name="ParameterValue2" value="Method.getRayHandler"/>
+    <property name="ParameterValue3" value="Property.X"/>
+    <property name="ParameterValue4" value="Property.Y"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Height"/>
+   </properties>
+  </object>
+  <object id="194" name="Button" x="720" y="721" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
+    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
+    <property name="Component1Property1" value="float"/>
+    <property name="Component1Property2" value="float"/>
+    <property name="Component1Value1" value="Property.X"/>
+    <property name="Component1Value2" value="Property.Y"/>
+    <property name="Parameter1" value="com.badlogic.gdx.physics.box2d.World"/>
+    <property name="Parameter2" value="box2dLight.RayHandler"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="int"/>
+    <property name="Parameter6" value="int"/>
+    <property name="ParameterValue1" value="Method.getWorld"/>
+    <property name="ParameterValue2" value="Method.getRayHandler"/>
+    <property name="ParameterValue3" value="Property.X"/>
+    <property name="ParameterValue4" value="Property.Y"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Height"/>
+   </properties>
+  </object>
+  <object id="187" name="Button" x="720" y="760" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
+    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
+    <property name="Component1Property1" value="float"/>
+    <property name="Component1Property2" value="float"/>
+    <property name="Component1Value1" value="Property.X"/>
+    <property name="Component1Value2" value="Property.Y"/>
+    <property name="Parameter1" value="com.badlogic.gdx.physics.box2d.World"/>
+    <property name="Parameter2" value="box2dLight.RayHandler"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="int"/>
+    <property name="Parameter6" value="int"/>
+    <property name="ParameterValue1" value="Method.getWorld"/>
+    <property name="ParameterValue2" value="Method.getRayHandler"/>
+    <property name="ParameterValue3" value="Property.X"/>
+    <property name="ParameterValue4" value="Property.Y"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Height"/>
+   </properties>
+  </object>
+  <object id="202" name="Button" x="720" y="681" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -1095,6 +1226,28 @@
    </properties>
   </object>
   <object id="206" name="Button" x="120" y="520" width="40" height="40">
+   <properties>
+    <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
+    <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
+    <property name="Component1Property1" value="float"/>
+    <property name="Component1Property2" value="float"/>
+    <property name="Component1Value1" value="Property.X"/>
+    <property name="Component1Value2" value="Property.Y"/>
+    <property name="Parameter1" value="com.badlogic.gdx.physics.box2d.World"/>
+    <property name="Parameter2" value="box2dLight.RayHandler"/>
+    <property name="Parameter3" value="float"/>
+    <property name="Parameter4" value="float"/>
+    <property name="Parameter5" value="int"/>
+    <property name="Parameter6" value="int"/>
+    <property name="ParameterValue1" value="Method.getWorld"/>
+    <property name="ParameterValue2" value="Method.getRayHandler"/>
+    <property name="ParameterValue3" value="Property.X"/>
+    <property name="ParameterValue4" value="Property.Y"/>
+    <property name="ParameterValue5" value="Property.Width"/>
+    <property name="ParameterValue6" value="Property.Height"/>
+   </properties>
+  </object>
+  <object id="222" name="Button" x="80" y="520" width="40" height="40">
    <properties>
     <property name="Class" value="com.ellzone.slotpuzzle2d.sprites.lights.HoldLightButton"/>
     <property name="Component1" value="com.ellzone.slotpuzzle2d.components.PositionComponent"/>
@@ -1422,58 +1575,6 @@
     <property name="ParameterValue4" value="Property.Y"/>
     <property name="ParameterValue5" value="Property.Width"/>
     <property name="ParameterValue6" value="Property.Height"/>
-   </properties>
-  </object>
-  <object id="140" name="HoldButtonPanel" x="79" y="840" width="200" height="40">
-   <properties>
-    <property name="Class" value="com.ellzone.slotpuzzle2d.level.light.LightGrid"/>
-    <property name="Parameter1" value="float"/>
-    <property name="Parameter2" value="float"/>
-    <property name="Parameter3" value="float"/>
-    <property name="Parameter4" value="float"/>
-    <property name="ParameterValue1" value="Property.X"/>
-    <property name="ParameterValue2" value="Property.Y"/>
-    <property name="ParameterValue3" value="Property.Width"/>
-    <property name="ParameterValue4" value="Property.Height"/>
-   </properties>
-  </object>
-  <object id="207" name="HoldButtonPanel" x="80" y="520" width="200" height="40">
-   <properties>
-    <property name="Class" value="com.ellzone.slotpuzzle2d.level.light.LightGrid"/>
-    <property name="Parameter1" value="float"/>
-    <property name="Parameter2" value="float"/>
-    <property name="Parameter3" value="float"/>
-    <property name="Parameter4" value="float"/>
-    <property name="ParameterValue1" value="Property.X"/>
-    <property name="ParameterValue2" value="Property.Y"/>
-    <property name="ParameterValue3" value="Property.Width"/>
-    <property name="ParameterValue4" value="Property.Height"/>
-   </properties>
-  </object>
-  <object id="220" name="HoldButtonPanel" x="360" y="840" width="200" height="40">
-   <properties>
-    <property name="Class" value="com.ellzone.slotpuzzle2d.level.light.LightGrid"/>
-    <property name="Parameter1" value="float"/>
-    <property name="Parameter2" value="float"/>
-    <property name="Parameter3" value="float"/>
-    <property name="Parameter4" value="float"/>
-    <property name="ParameterValue1" value="Property.X"/>
-    <property name="ParameterValue2" value="Property.Y"/>
-    <property name="ParameterValue3" value="Property.Width"/>
-    <property name="ParameterValue4" value="Property.Height"/>
-   </properties>
-  </object>
-  <object id="213" name="HoldButtonPanel" x="360" y="520" width="200" height="40">
-   <properties>
-    <property name="Class" value="com.ellzone.slotpuzzle2d.level.light.LightGrid"/>
-    <property name="Parameter1" value="float"/>
-    <property name="Parameter2" value="float"/>
-    <property name="Parameter3" value="float"/>
-    <property name="Parameter4" value="float"/>
-    <property name="ParameterValue1" value="Property.X"/>
-    <property name="ParameterValue2" value="Property.Y"/>
-    <property name="ParameterValue3" value="Property.Width"/>
-    <property name="ParameterValue4" value="Property.Height"/>
    </properties>
   </object>
   <object id="221" name="Handle" x="640" y="518" width="40" height="40">
